@@ -52,7 +52,7 @@ function Write-Log {
 function Get-SiteId {
     param (
         [string]$accessToken,
-        [string]$domain,   # O domínio do SharePoint (ex: 'gruporbs.sharepoint.com')
+        [string]$domain,   # O domínio do SharePoint (ex: 'seusite.sharepoint.com')
         [string]$siteName  # O nome do site (ex: 'Infraestrutura402')
     )
 
